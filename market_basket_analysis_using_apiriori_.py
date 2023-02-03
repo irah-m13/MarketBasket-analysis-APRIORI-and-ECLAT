@@ -31,7 +31,7 @@ for i in range(0, 7500):
   transactions.append([str(dataset.values[i,j]) for j in range(0, 20)])
 transactions
 
-"""### Training APRIORI"""
+ """### Training APRIORI"""
 
 !pip install apyori
 from apyori import apriori
